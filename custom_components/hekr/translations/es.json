@@ -1,71 +1,70 @@
 {
-    "_remove_me_after_making_translations_or_everything_will_be_replaced": true,
     "config": {
         "abort": {
-            "account_already_exists": "Account with given username already exists",
-            "device_already_exists": "Device with given ID already exists",
-            "empty_configuration_import": "Unexpected empty configuration occurred during import",
-            "protocol_not_set": "Protocol not set",
-            "unknown_api_error": "Unknown API error {class}: {content}"
+            "account_already_exists": "Ya existe una cuenta con el nombre de usuario especificado",
+            "device_already_exists": "Ya existe un dispositivo con el ID especificado",
+            "empty_configuration_import": "Se produjo una configuración vacía inesperada durante la importación",
+            "protocol_not_set": "El protocolo no se ha configurado",
+            "unknown_api_error": "Error desconocido de API {class}: {content}"
         },
         "error": {
-            "account_invalid_credentials": "Invalid credentials on account",
-            "protocol_no_port": "Protocol does not supply default port for communication",
-            "protocol_unsupported": "Selected protocol is not supported"
+            "account_invalid_credentials": "Credenciales inválidas en la cuenta",
+            "protocol_no_port": "El protocolo no propociona un puerto de comunicación por defecto",
+            "protocol_unsupported": "El protocolo seleccionado no está soportado"
         },
         "step": {
             "account": {
                 "data": {
-                    "dump_device_credentials": "Create notification with device info",
-                    "password": "Password",
-                    "username": "Username"
+                    "dump_device_credentials": "Crear notificiones con la información del dispositivo",
+                    "password": "Contraseña",
+                    "username": "Usuario"
                 },
-                "description": "Enter the credentials you use to log into Hekr / Wisen application.",
-                "title": "Account"
+                "description": "Ingrese las credenciales que utiliza para ingresar en su cuenta de aplicación Hekr / Wisen.",
+                "title": "Cuenta"
             },
             "additional_sensors": {
                 "data": {
-                    "power_meter": "Power Meter",
-                    "power_meter_active_power": "Active Power",
-                    "power_meter_current": "Current",
-                    "power_meter_current_consumption": "Current Consumption",
-                    "power_meter_detailed": "Detailed Information",
-                    "power_meter_general": "General Information",
-                    "power_meter_power_factor": "Power Factor",
-                    "power_meter_reactive_power": "Reactive Power",
-                    "power_meter_status": "Status",
-                    "power_meter_total_consumption": "Total Consumption",
-                    "power_meter_voltage": "Voltage"
+                    "power_meter": "Medidor de Energía",
+                    "power_meter_active_power": "Energía Activa",
+                    "power_meter_current": "Corriente",
+                    "power_meter_current_consumption": "Consumo Actual",
+                    "power_meter_detailed": "Información Detallada",
+                    "power_meter_general": "Información General",
+                    "power_meter_power_factor": "Factor de Potencia",
+                    "power_meter_reactive_power": "Potencia Reactiva",
+                    "power_meter_status": "Estado",
+                    "power_meter_total_consumption": "Consumo Total",
+                    "power_meter_voltage": "Voltaje"
                 },
-                "description": "Protocol: **{protocol_name}**\nDevice name: **{device_name}**\n\nChoose what sensors should be shown with the device.\nConfirm current settings for default mode of operation.",
-                "title": "Sensors"
+                "description": "Protocolo: **{protocol_name}**\nDevice name: **{device_name}**\n\nSeleccione que sensores serán visualizados con este dispositivo.\nConfirme la configuración actual para el modo de operación por defecto.",
+                "title": "Sensores"
             },
             "additional_switches": {
                 "data": {
-                    "power_meter_main_power": "Main Power"
+                    "power_meter_main_power": "Interruptor Principal de Energía"
                 },
-                "description": "Selected protocol: **{protocol_name}**\nDevice name: **{device_name}**\n\nChoose what switches should be shown with the device.\nConfirm current settings for default mode of operation.",
-                "title": "Switches"
+                "description": "Protocolo seleccionado: **{protocol_name}**\nDevice name: **{device_name}**\n\nSeleccione que interruptores serán  visualizados con este dispositivo.\nConfirme la configuración actual para el modo de operación por defecto.",
+                "title": "Interruptores"
             },
             "device": {
                 "data": {
-                    "control_key": "Control key",
-                    "device_id": "Device ID",
-                    "host": "Host",
-                    "name": "Name (leave empty to auto-generate)",
-                    "port": "Port (leave empty for protocol default)",
-                    "protocol": "Protocol",
-                    "scan_interval": "Polling interval (in seconds)"
+                    "control_key": "Llave de Control (Control key)",
+                    "device_id": "ID del Dispositivo",
+                    "host": "Anfitrion (Host)",
+                    "name": "Nombre (dejar en blanco para generarlo automáticamente)",
+                    "port": "Puerto (dejar en blanco parael puerto por defecto)",
+                    "protocol": "Protocolo",
+                    "scan_interval": "Intervalo de escaneo (en segundos)"
                 },
-                "description": "Configure device accessible directly.",
-                "title": "Device over LAN"
+                "description": "Configurar el dispositivo para acceso directo.",
+                "title": "Dispositivo sobre LAN"
             },
             "user": {
                 "data": {
-                    "type": "Setup type"
+                    "type": "Tipo de configuración"
                 },
-                "description": "There are two ways to connect to Hekr platform: cloud and local. To connect using cloud service choose `account` option. To connect via local network choose `device` option.",
-                "title": "Hekr Setup"
+                "description": "Existen dos formas de conectarse a la plataforma Hekr: en la nube y local. Para conectarse usando el servicio en la nube, elija la opción `cuenta`. Para conectarse a través de la red local, elija la opción `dispositivo`.",
+                "title": "Configuración"
             }
         },
         "title": "Hekr"
